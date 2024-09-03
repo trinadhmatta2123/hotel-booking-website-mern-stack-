@@ -1,0 +1,53 @@
+/* Home.css */
+.home {
+    text-align: center;
+  }
+  
+  .hero {
+    background-image: url('projectbg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 1;
+  }
+  
+  .hero h1, .hero p {
+    z-index: 2;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  .about-us,
+  .contact-us {
+    padding: 60px 30px;
+  }
+  
+  /* Add smooth scrolling for anchor links */
+  html {
+    scroll-behavior: smooth;
+  }
+  

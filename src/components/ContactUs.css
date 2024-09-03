@@ -1,0 +1,21 @@
+/* ContactUs.css */
+.contact-us {
+    background-color: #333;
+    color: white;
+    padding: 60px 30px;
+    text-align: center;
+  }
+  
+  .contact-us h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us .social-icons a {
+    color: white;
+  }
+  
+  .contact-us .social-icons a:hover {
+    color: #ffc107; /* Different hover color for contact section */
+  }
+  
